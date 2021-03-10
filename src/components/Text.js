@@ -9,11 +9,11 @@ function Text(){
                 
                 <h2 className="text-7xl text-center font-balsamiq">Découvrez notre selection de weekends</h2>
                 <div className="text-5xl" id="timer"><Timer /></div>
-                <form action="submit" method="post" className="flex flex-col w-11/12 items-center">
+                <form action="submit" method="post" className="flex flex-col w-11/12 items-center font-montserrat">
                     
-                    <div className="flex flex-row w-full justify-center">
+                    <div className="flex flex-row w-full justify-center mb-2 space-x-4">
                         <input type="email" placeholder="mail" className="mt-1 w-48 h-12 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" id="user-mail" aria-describedby="emailHelp"/>
-                        <button className="rounded-xl border-white border-2 p-2 mt-6">Pré-inscription</button>
+                        <button className="rounded-xl border-white border-2 p-2 mt-1">Pré-inscription</button>
                     </div>
                     <p id="emailHelp" className="text-gray-400 text-xs">On ne partagera votre email avec personne.</p>                    
                     

@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'balsamiq': ['Balsamiq Sans', 'Helvetica', 'Arial', 'sans-serif'],
+        'montserrat': ['Montserrat', 'Arial', 'sans-serif'],
       },
       backgroundImage: theme => ( {
         'upcoming':"url('/src/assets/luxury-bedroom-suite.jpg')",
