@@ -3,7 +3,7 @@ import Text from './Text';
 
 function App() {
   return (
-   <div><Text /></div>
+   <main className="bg-black bg-opacity-90"><Text /></main>
   );
 }
 

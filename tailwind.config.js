@@ -9,7 +9,10 @@ module.exports = {
       },
       backgroundImage: theme => ( {
         'upcoming':"url('/src/assets/luxury-bedroom-suite.jpg')",
-      })
+      }),
+      maxWidth: {
+        'xxs': '10rem',
+      }
     },
   },
   variants: {
