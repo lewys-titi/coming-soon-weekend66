@@ -8,7 +8,7 @@ module.exports = {
         'montserrat': ['Montserrat', 'Arial', 'sans-serif'],
       },
       backgroundImage: theme => ( {
-        'upcoming':"url('/src/assets/luxury-bedroom-suite-opacity-90.jpg')",
+        'upcoming':"url('/src/assets/luxury-bedroom-suite-opacity-98.jpg')",
       }),
       maxWidth: {
         'xxs': '10rem',
