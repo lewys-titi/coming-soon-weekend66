@@ -7,7 +7,7 @@ function Text(){
             <div className="flex flex-row items-center w-full h-full z-10">
                 <article className="p-4 flex flex-col items-center space-y-6 text-white w-1/2 h-full justify-center">     
                     <h1 className="p-4 text-2xl md:text-4xl font-montserrat font-bold text-white">Weekend66</h1>           
-                    <h2 className=" text-4xl md:text-7xl text-center font-montserrat">Découvrez notre selection de weekends</h2>
+                    <h2 className=" text-4xl md:text-7xl text-center font-montserrat">Découvrez notre sélection de weekends</h2>
                     <div className="text-3xl" id="timer"><Timer /></div>
                     <form action="submit" method="post" className="flex flex-col w-11/12 items-center font-montserrat">
                         
