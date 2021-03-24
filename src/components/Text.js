@@ -1,4 +1,5 @@
 import Timer from './Timer';
+import Slider from './Slider';
 
 function Text(){
     return (
@@ -19,9 +20,10 @@ function Text(){
                     </form>
                 
                 </article>
-                <article className="flex w-1/2 h-full bg-upcoming bg-no-repeat bg-cover">
-                    {/* <img src={illustration} alt="chambre d'hotel"/> */}
+                <article className="flex w-1/2 h-full">
+                    <Slider></Slider>
                 </article>
+                
 
             </div>
             <div className="absolute bottom-0 text-white text-xs justify-self-end bg-black p-2 z-40">
