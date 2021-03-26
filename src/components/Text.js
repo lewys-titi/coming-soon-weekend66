@@ -3,9 +3,9 @@ import Slider from './Slider';
 
 function Text(){
     return (
-        <section className="relative flex flex-col items-center w-full h-screen bg-black z-0">
-            <div className="flex flex-row items-center w-full h-full z-10">
-                <article className="p-4 flex flex-col items-center space-y-6 text-white w-1/2 h-full justify-center">     
+        <section className="relative flex flex-col items-center w-full h-full md:h-screen bg-black z-0">
+            <div className="flex flex-col md:flex-row items-center w-full h-full z-10 overflow-scroll">
+                <article className="p-4 flex flex-col items-center space-y-6 text-white w-full md:w-1/2 h-full justify-center">     
                     <h1 className="p-4 text-2xl md:text-4xl font-montserrat font-bold text-white">Weekend66</h1>           
                     <h2 className=" text-4xl md:text-7xl text-center font-montserrat">Découvrez notre sélection de weekends</h2>
                     <div className="text-3xl" id="timer"><Timer /></div>
@@ -20,7 +20,7 @@ function Text(){
                     </form>
                 
                 </article>
-                <article className="flex w-1/2 h-full">
+                <article className="flex w-full md:w-1/2 md:h-full mt-8 mb-14 md:mb-0 md:mt-0">
                     <Slider></Slider>
                 </article>
                 

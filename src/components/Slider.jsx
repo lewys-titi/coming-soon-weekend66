@@ -29,9 +29,9 @@ export default function Slider(){
       className="min-w-full overflow-hidden"
       loop={true}
     >
-      <SwiperSlide key="1" className="h-full"><img src={luxury} alt="test" className=" h-full object-cover"/></SwiperSlide>
-      <SwiperSlide key="2" className="h-full"><img src={illu2} alt="test" className="h-full object-cover"/></SwiperSlide>
-      <SwiperSlide key="3" className="h-full"><img src={illu3} alt="test"className=" h-full object-cover"/></SwiperSlide>
+      <SwiperSlide key="1" className="h-full"><img src={luxury} alt="test" className="h-full w-full md:min-w-full object-cover"/></SwiperSlide>
+      <SwiperSlide key="2" className="h-full"><img src={illu2} alt="test" className="h-full w-full md:min-w-full object-cover"/></SwiperSlide>
+      <SwiperSlide key="3" className="h-full"><img src={illu3} alt="test"className="h-full w-full md:min-w-full object-cover"/></SwiperSlide>
     </Swiper>
     
   );
